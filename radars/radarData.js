@@ -65,7 +65,9 @@ var radar_data = [
             {name:"Agile Software Development", pc:{r:80,t:130},movement:"c"},
             {name:"Responsive Design", pc:{r:80,t:170},movement:"c"},
             {name:"Continuous Delivery", pc:{r:80,t:110},movement:"c"},
-            {name:"DevOps", pc:{r:80,t:150},movement:"c"}
+            {name:"DevOps", pc:{r:80,t:150},movement:"c"},
+
+            {name:"No CMS", pc:{r:220,t:150},movement:"c"}
 
         ]
     },

@@ -1,5 +1,4 @@
-Build Your Own Technology Radar.
-
+REI OpenGov Technology Radar
 Inspired by the ThoughtWorks Tech Radar: http://www.thoughtworks.com/radar/.
 
 I love the ThoughtWorks Radar. But it is for all clients, averaged out across industries, organisational maturity and risk adverseness.

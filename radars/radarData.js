@@ -54,21 +54,19 @@ var radar_data = [
         "top" : 18,
         "color" : "#8FA227",
         "items" : [
-            { name: 'Single Page Applications', pc: { r: 280, t: 133 }, movement: 'c' },
+            {name:"Automated Testing", pc:{r:50,t:130},movement:"c"},
+            {name:"DevOps", pc:{r:40,t:150},movement:"c"},
+            {name:"Application Health Monitoring", pc:{r:80,t:150},movement:"c"},
+            {name:"Responsive Design", pc:{r:80,t:170},movement:"c"},
+            {name:"Continuous Delivery", pc:{r:80,t:110},movement:"c"},
 
             {name:"Microservices", pc:{r:130,t:130},movement:"c"},
             {name:"Products over Projects Mindset", pc:{r:130,t:165},movement:"c"},
             {name:"API First", pc:{r:120,t:95},movement:"c"},
+            {name:"Agile Software Development", pc:{r:110,t:130},movement:"c"},
 
-            {name:"Automated Testing", pc:{r:50,t:130},movement:"c"},
-            {name:"Application Health Monitoring", pc:{r:80,t:150},movement:"c"},
-            {name:"Agile Software Development", pc:{r:80,t:130},movement:"c"},
-            {name:"Responsive Design", pc:{r:80,t:170},movement:"c"},
-            {name:"Continuous Delivery", pc:{r:80,t:110},movement:"c"},
-            {name:"DevOps", pc:{r:80,t:150},movement:"c"},
-
-            {name:"No CMS", pc:{r:220,t:150},movement:"c"}
-
+            {name:"No CMS", pc:{r:220,t:150},movement:"c"},
+            { name: 'Single Page Applications', pc: { r: 280, t: 133 }, movement: 'c' }
         ]
     },
     { "quadrant": "Tools",
@@ -76,16 +74,16 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [
-          { name: 'New Relic', pc: { r: 30, t: 25 },movement: 'c',domain: 'back-end' },
-          { name: 'Composer', pc: { r: 40, t: 25 }, movement: 'c' },
-          { name: 'Sonar', pc: { r: 40, t: 35 },movement: 'c' },
+          { name: 'New Relic', pc: { r: 30, t: 55 },movement: 'c',domain: 'back-end' },
+          { name: 'Composer', pc: { r: 70, t: 20 }, movement: 'c' },
+          { name: 'Sonar', pc: { r: 80, t: 35 },movement: 'c' },
 
-          { name: 'Chef',    pc: { r: 150, t: 30 },    movement: 'c' },
           { name: 'Elastic Search',    pc: { r: 120, t: 30 },    movement: 'c' },
-          { name: 'Logstash', pc: { r: 120, t: 40 }, movement: 'c' },
-          { name: 'Kibana',    pc: { r: 130, t: 50 },    movement: 'c' },
-          { name: 'Ansible',    pc: { r: 220, t: 50 },    movement: 'c' },
+          { name: 'Chef',    pc: { r: 150, t: 30 },    movement: 'c' },
+          { name: 'Ansible',    pc: { r: 160, t: 50 },    movement: 'c' },
 
+          { name: 'Logstash', pc: { r: 230, t: 40 }, movement: 'c' },
+          { name: 'Kibana',    pc: { r: 230, t: 50 },    movement: 'c' },
           { name: 'Git Lab',    pc: { r: 220, t: 60 },    movement: 'c' },
           { name: 'Swagger',    pc: { r: 220, t: 70 },    movement: 'c' },
 
@@ -100,13 +98,13 @@ var radar_data = [
         "items" : [
           { name: 'AWS', pc: { r: 30, t: 210 },movement: 'c',domain: 'back-end' },
 
-          { name: 'MEAN Stack', pc: { r: 130, t: 210 }, movement: 'c' },
-          { name: 'Azure', pc: { r: 170, t: 200 },movement: 'c' },
-          { name: 'Apache Spark',    pc: { r: 150, t: 210 },    movement: 'c' },
           { name: 'Docker containers',    pc: { r: 120, t: 210 },    movement: 'c' },
           { name: 'Hadoop', pc: { r: 120, t: 220 }, movement: 'c' },
-          { name: 'Trello',    pc: { r: 130, t: 230 },    movement: 'c' },
+          { name: 'Apache Spark',    pc: { r: 140, t: 210 },    movement: 'c' },
+          { name: 'Trello',    pc: { r: 140, t: 230 },    movement: 'c' },
+          { name: 'Azure', pc: { r: 160, t: 200 },movement: 'c' },
 
+          { name: 'MEAN Stack', pc: { r: 220, t: 210 }, movement: 'c' },
           { name: 'AWS Container Service',    pc: { r: 220, t: 230 },    movement: 'c' },
           { name: 'Rkt',    pc: { r: 220, t: 240 },    movement: 'c' },
           { name: 'CoreOS',    pc: { r: 220, t: 250 },    movement: 'c' }
@@ -117,19 +115,16 @@ var radar_data = [
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
         "items" : [
-            { name: 'Bootstrap', pc: { r: 60, t: 290 },  movement: 'c' },
+            { name: 'Bootstrap', pc: { r: 60, t: 320 },  movement: 'c' },
 
-            { name: 'NodeJS', pc: { r: 60, t: 310 },  movement: 'c' },
-            { name: 'AngularJS', pc: { r: 60, t: 278 },  movement: 'c' },
-
-            { name: 'Django REST', pc: { r: 150, t: 300 }, movement: 'c',  domain: 'template' },
+            { name: 'NodeJS', pc: { r: 120, t: 310 },  movement: 'c' },
+            { name: 'AngularJS', pc: { r:120, t: 278 },  movement: 'c' },
             { name: 'Jekyll', pc: { r: 150, t: 310 }, movement: 'c',  domain: 'template' },
             { name: 'Hugo', pc: { r: 150, t: 320 }, movement: 'c',  domain: 'template' },
 
-            { name: 'Dashing', pc: { r: 210, t: 330 }, movement: 'c',  domain: 'template' },
-            { name: 'React', pc: { r: 210, t: 340 }, movement: 'c',  domain: 'template' }
-
-
+            { name: 'Dashing', pc: { r: 220, t: 330 }, movement: 'c',  domain: 'template' },
+            { name: 'React', pc: { r: 220, t: 340 }, movement: 'c',  domain: 'template' },
+            { name: 'Django REST', pc: { r: 230, t: 300 }, movement: 'c',  domain: 'template' }
         ]
     }
 ];
